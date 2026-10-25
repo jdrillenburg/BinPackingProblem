@@ -45,7 +45,7 @@ Please see the benchmark source and original publication for attribution and the
 1. Clone or download this repository.
 2. Install the required Python packages.
 3. Ensure Gurobi is installed and licensed.
-4. Ensure that the folder ``testing_instances" is in the same folder as benchmark_runner.py and solve_bpp.py
+4. Ensure that the folder `testing_instances` is in the same folder as benchmark_runner.py and solve_bpp.py
 5. Configure the benchmark settings in `benchmark_runner.py`.
 6. Run:
 
@@ -59,7 +59,7 @@ Check the runner's configuration and the code for the expected instance file for
 
 The benchmark runner is configured to use a time limit of 60 seconds per instance and formulation, with one solver thread. Other settings, including LP-bound computation, are specified in the runner.
 
-The reported runtime and time limit should be interpreted according to the implementation: preprocessing and post-solve LP calculations may contribute to total wall-clock time.
+The 60-second limit applies to model construction and the integer optimization. LP relaxation bounds are calculated afterward and may increase total wall-clock time. The reported solver runtime and total elapsed time are recorded separately.
 
 ## Results
 
