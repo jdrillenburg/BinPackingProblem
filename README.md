@@ -45,7 +45,7 @@ Please see the benchmark source and original publication for attribution and the
 1. Clone or download this repository.
 2. Install the required Python packages.
 3. Ensure Gurobi is installed and licensed.
-4. Ensure that the folder `testing_instances` is in the same folder as benchmark_runner.py and solve_bpp.py
+4. Ensure that the folder `testing_instances` is in the same folder as `benchmark_runner.py` and `solve_bpp.py`
 5. Configure the benchmark settings in `benchmark_runner.py`.
 6. Run:
 
