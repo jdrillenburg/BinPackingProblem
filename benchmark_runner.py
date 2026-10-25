@@ -10,7 +10,7 @@ from solve_bpp import MODELS, from_item_list, verify_solution
 # ---------------------------- Configuration ----------------------------
 
 INSTANCE_DIR = Path("testing_instances")
-RESULTS_DIR = Path("benchmark_results_2")
+RESULTS_DIR = Path("benchmark_results")
 
 TIME_LIMIT = 60.0       # seconds per model per instance
 THREADS = 1             # fixed for reproducibility
