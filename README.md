@@ -98,4 +98,12 @@ The MIT License applies to this project's original code, not automatically to th
 
 ## References
 
-Scholl, A., Klein, R., & Jürgens, C. (1997). BISON: A fast hybrid procedure for exactly solving the one-dimensional bin packing problem. *Computers & Operations Research, 24*(7), 627–645. https://doi.org/10.1016/S0305-0548(96)00082-2
+M. Delorme, M. Iori, and S. Martello. BPPLIB: a library for bin packing and cutting stock
+problems. Optimization Letters, 12(2):235–250, 2017.
+
+A. Scholl, R. Klein, and C. J¨urgens. Bison: A fast hybrid procedure for exactly solving the
+one-dimensional bin packing problem. Computers amp; Operations Research, 24(7):627–645,
+1997.
+
+J. Val´erio de Carvalho. LP models for bin packing and cutting stock problems. European
+Journal of Operational Research, 141(2):253–273, 2002.
